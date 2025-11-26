@@ -127,13 +127,14 @@ li > h2 {
 
 .countryInfo > div > img {
 	width: 200px;
+	height: fit-content;
 }
 
 .countryInfo > div > div {
 	flex-grow: 1;
 	display: flex;
 	flex-flow: column nowrap;
-	justify-content: center;
+	justify-content: flex-start;
 	gap: 10px;
 }
 
